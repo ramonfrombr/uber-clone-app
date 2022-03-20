@@ -3,16 +3,18 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import tw from 'twrnc';
 
-const TelaMapa = () => {
-  return (
-    <SafeAreaView
-        style={tw`bg-white h-full`}
-    >
-        <Text>Mapa</Text> 
-    </SafeAreaView>
-  )
+
+
+const TelaComida = () => {
+    return (
+        <SafeAreaView
+            style={tw`bg-white h-full`}
+        >
+            <Text>Comida</Text> 
+        </SafeAreaView>
+    )
 }
 
-export default TelaMapa
+export default TelaComida
 
 const styles = StyleSheet.create({})

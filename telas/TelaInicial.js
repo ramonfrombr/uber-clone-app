@@ -10,7 +10,7 @@ import tw from 'twrnc';
 
 import NavOpcoes from '../components/NavOpcoes';
 
-const TelaInicial = () => {
+const TelaInicial = ({ navigation }) => {
 
 
   return (
