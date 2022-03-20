@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
+import TelaInicial from './telas/TelaInicial';
 import { store } from './store';
 
 
@@ -9,9 +10,7 @@ export default function App() {
   return (
 
 	<Provider store={store}>
-		<View style={styles.container}>
-			<Text>Vamos criar o UBER</Text>
-		</View>
+		<TelaInicial />
 	</Provider>
   );
 }

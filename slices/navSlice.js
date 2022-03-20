@@ -9,7 +9,7 @@ const estadoInicial = {
 
 export const navSlice = createSlice({
     name: 'nav',
-    estadoInicial,
+    initialState: estadoInicial,
     reducer: {
         definirOrigem: (state, acao) => {
             state.origem = acao.payload;
