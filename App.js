@@ -3,16 +3,18 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
 import TelaInicial from './telas/TelaInicial';
 import { store } from './store';
-
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 
 export default function App() {
-  return (
 
-	<Provider store={store}>
-		<TelaInicial />
-	</Provider>
-  );
+	return (
+		<Provider store={store}>
+			<SafeAreaProvider>
+				<TelaInicial />
+			</SafeAreaProvider>
+		</Provider>
+	);
 }
 
 

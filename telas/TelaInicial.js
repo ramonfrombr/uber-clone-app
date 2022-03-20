@@ -8,6 +8,8 @@ import {
 
 import tw from 'twrnc';
 
+import NavOpcoes from '../components/NavOpcoes';
+
 const TelaInicial = () => {
 
 
@@ -28,7 +30,11 @@ const TelaInicial = () => {
                     resizeMode: 'contain'
                 }}
             />
+
+
+            <NavOpcoes />
         </View>
+
     </SafeAreaView>
    
   )
